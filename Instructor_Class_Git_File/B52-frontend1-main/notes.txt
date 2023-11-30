@@ -1,0 +1,176 @@
+HTML  => Hyper Text Markup Language
+
+hypertext => refers to connect web pages to one another
+
+markup => display content on web browser =>  include elements i.e. img, header, footer, p
+
+
+shift + 1 => html template 
+
+extension  => live server
+
+
+HTML => raw structure
+CSS => look & feel(design)
+
+
+p => 16px
+
+h1 => 34px
+h2 -> 32px
+h3 => 24px
+h4 => 20px
+h5 -> 18px
+h6 -> 16px
+
+Block level elements
+----------------------
+
+>> starts on the new line
+>> Occupy the whole width
+>> eg: p, heading, div
+
+Inline elements
+-----------------
+>> Start in the same line
+>> Only take space which is required
+>> eg. img, a, span
+
+
+10-10-23  => Task
+---------
+
+4. Use certain HTML elements to display the following in a HTML page.
+
+Check other input types  => date, file, 
+
+
+
+
+section  => follow single pattern or theme
+
+div => doesn't follow or convey any meaning
+
+CSS => Cascading Style Sheet
+
+3 ways to define CSS
+------------------------
+
+
+1. inline styling =  style="color: blue; text-align:center; background-color: aquamarine; font-size: 50px "
+ >> style attribute inside html tags
+ 
+ 
+2. internal styling 
+ >>   <style>
+        h3 {
+            color: purple
+        }
+    </style>
+
+
+  >> <style> </style>  => tag in head  
+
+3. external styling =>     <link rel="stylesheet" href="styles.css" />
+  >> <link> tag in head and calling css file
+
+
+  BoxModel
+  Selector
+  display
+
+  display: none and visibility: hidden difference
+  -------------------------------------------------
+
+
+display: none => will not occupy space
+
+visibility: hidden => will occupy space
+
+display: block & visibility : visible => text will be visible
+
+  Position
+
+
+
+
+   Flex - one dimensional layout - either rows or column
+
+justify-content =>align along the main axis(left - right)
+
+align-items => cross axis
+
+align-content => main axis =>all items as single item(flex-wrap to be used)
+
+
+
+
+Grid -  two dimensional layout - both rows or column
+
+justify-content => 
+
+
+Bootstrap
+------------
+
+Frontend Framework
+Predefined Templates => button, table, forms, images carousels....
+
+
+Advantages
+----------
+>> Easy and faster
+>> Responsive
+>> Mobile-first approach
+>> Browser compatibility
+
+
+Grid
+-------
+
+
+Breakpoints for screen
+--------------------------
+
+
+xs -> phones < 768px  => .col-xs 
+sm -> Tablets >= 768px => .col-sm-*  => 768px - 991px
+md => Laptop >= 992px => .col-md-*  => 992px - 1199px
+lg => laptop & desktop >= 1200px  => .col-lg-*  => 1200px and above
+
+Bootstrap 5
+-----------
+xs => <576px 
+sm => ≥576px
+md => ≥768px
+lg => ≥992px
+xl => ≥1200px
+xxl => ≥1400px
+
+
+Bootstrap 4
+-----------
+xs => <576px 
+sm => ≥576px
+md => ≥768px
+lg => ≥992px
+xl => ≥1200px
+
+
+
+Bootstrap 3
+-----------
+xs => <768px
+sm => >=768px
+md => ≥992px
+lg => ≥1200px
+
+
+
+DOM
+-----
+Document Object Model  => represent  webpage in tree like structure/ structured hierarchical way 
+>> target html elements to manipulate 
+
+Callback => calling a function inside another function
+
